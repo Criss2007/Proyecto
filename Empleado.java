@@ -1,10 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
-package com.mycompany.mavenproject2;
-
-
+package com.mycompany.concesionariaapp;
 
 public abstract class Empleado implements EmpleadoInterface {
     protected String nombre;
@@ -23,3 +18,4 @@ public abstract class Empleado implements EmpleadoInterface {
         return salarioBase;
     }
 }
+
